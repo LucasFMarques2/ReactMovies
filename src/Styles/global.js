@@ -48,4 +48,7 @@ export default createGlobalStyle`
     filter: brightness(0.9);
   }
 
+  input{
+    outline: none;
+  }
 `;

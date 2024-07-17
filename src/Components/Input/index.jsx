@@ -1,10 +1,11 @@
+/* eslint-disable react/prop-types */
 import { Container } from './styled';
 
-export function Input({ placeholder, icon: Icon }) {
+export function Input({icon: Icon, ...rest }) {
   return (
     <Container>
       {Icon && <Icon size={20}/>}
-      <input placeholder={placeholder} />
+      <input {...rest} />
     </Container>
   );
 }

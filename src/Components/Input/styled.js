@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+  width: 100%;
   display: flex;
   height: 56px;
-  width: 100%;
   align-items: center;
   color: ${({ theme }) => theme.COLORS.GRAY_200};
   background-color: ${({ theme }) => theme.COLORS.BACKGROUND_700};

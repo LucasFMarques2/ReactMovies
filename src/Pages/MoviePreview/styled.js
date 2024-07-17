@@ -38,6 +38,8 @@ export const Container = styled.div`
 
     .text{
       margin-top: 40px;
+      text-align: justify;
+      width: 90%;
     }
   }
 `;

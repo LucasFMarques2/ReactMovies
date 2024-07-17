@@ -13,8 +13,8 @@ export const StarButton = styled.button`
     font-size: 20px;
     margin-right: 5px;
     color: ${({ theme, $isactive }) =>
-      $isactive == "true" ? theme.COLORS.PINK : theme.COLORS.WHITE};
+      $isactive ? theme.COLORS.PINK : theme.COLORS.WHITE};
     fill: ${({ theme, $isactive }) =>
-      $isactive == "true" ? theme.COLORS.PINK : theme.COLORS.WHITE};
+      $isactive ? theme.COLORS.PINK : theme.COLORS.WHITE};
   }
 `;

@@ -1,11 +1,12 @@
+/* eslint-disable react/no-unescaped-entities */
 import { Container } from "./styled";
 import { Header } from "../../Components/Header";
-import { Input } from "../../Components/Input";
 import { ButtonText } from "../../Components/ButtonText";
 import { FaArrowLeft } from "react-icons/fa";
 import { StarAviation } from "../../Components/StarAviation";
 import { CiClock2 } from "react-icons/ci";
 import { Tag } from '../../Components/Tags';
+
 
 export function MoviePreview() {
   return (
@@ -15,7 +16,7 @@ export function MoviePreview() {
         <ButtonText icon={FaArrowLeft} title="Voltar" />
         <div className="text">
           <h1>Interestellar</h1>
-          <StarAviation isActive="true" />
+          <StarAviation activeStars={4} />
         </div>
         <div className="profile">
           <img src="https://github.com/LucasFMarques2.png" />
@@ -54,5 +55,6 @@ export function MoviePreview() {
         </p>
       </main>
     </Container>
+
   );
 }
